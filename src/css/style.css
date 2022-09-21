@@ -229,7 +229,6 @@
     margin-right: 1.5rem;
   }
 
-
   /*Стили кнопок*/
   .button {
     text-align: center;
@@ -284,3 +283,98 @@
   .button_colored:hover {
     border: 1.79px solid #CFA5A5;
   }
+
+
+  /*Стили шапки страницы*/
+.header {
+  width: 100%;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 0.875rem 9.375rem;
+  background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+}
+
+.header-contacts__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-contacts__icon {
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-right: 0.5625rem;
+
+  background-color: inherit;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 0.875rem;
+}
+
+.icon-phone {
+  background-image: url('../img/header-icon_phone.svg');
+  background-size: 0.711rem;
+}
+
+.icon-map {
+  background-image: url('../img/header-icon_map.svg');
+  background-size: 0.625rem;
+}
+
+.icon-time {
+  background-image: url('../img/header-icon_time.svg');
+  background-size: 0.78125rem;
+}
+
+.header-contacts__link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-contacts__link:hover {
+  text-decoration: underline;
+}
+
+.header-control {
+  display: flex;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+}
+
+.menu-list__item {
+  margin-left: 1.5625rem;
+}
+
+.menu-list__item:first-child {
+  margin-left: 0;
+}
+
+.menu-list__link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+  color: #424242;
+}
+
+.menu-list__link:hover {
+  text-decoration: underline;
+}
