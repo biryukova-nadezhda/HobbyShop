@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobby Art</title>
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
 </head>
 <body>
     <header class="header">
@@ -51,7 +50,61 @@
                     </li>
                 </ul>
             </nav>
+
+            <div class="header-logo">
+                <a href="#" class="header-logo__link">
+                    <img src="./img/header-logo.svg" alt="Логотип магазина" class="header-logo__svg">
+                </a>
+            </div>
+
+            <div class="header-interaction">
+                <ul class="header-iteraction__list">
+                    <li class="header-interaction__item-serch">
+                        <input type="text" class="header-iteraction__serch" placeholder="Поиск товара">
+                        <img src="./img/header-serch.svg" alt="Логотип поиска" class="header-interaction__button-serch">
+                    </li>
+
+                    <li class="header-interaction__item">
+                        <img src="./img/header-button-login.svg" alt="Логотип входа" class="header-interaction__button-logo">
+                        Войти
+                    </li>
+
+                    <li class="header-interaction__item">
+                        <img src="./img/header-button-favorites.svg" alt="Логотип избранного" class="header-interaction__button-logo">
+                        Избранное
+                        <span class="header-interaction__button-number">2</span>
+                    </li>
+
+                    <li class="header-interaction__item">
+                        <img src="./img/header-button-basket.svg" alt="Логотип корзины" class="header-interaction__button-logo">
+                        Корзина
+                        <span class="header-interaction__button-number">1</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
+
+    <section class="banner">
+        <div class="banner__block-image">
+            <img src="./img/banner-image.svg" alt="Рекламируемая пряжа" class="banner__image">
+        </div>
+
+        <div class="banner__block-content">
+            <h2 class="banner__title">Пряжа Macrametr</h2>
+            <p class="banner__content">
+                Повседневная практика показывает, что укрепление и развитие внутренней структуры обеспечивает широкому кругу (специалистов) участие в формировании форм воздействия.
+            </p>
+            <button class="banner__button button button_flooded">В каталог</button>
+        </div>
+
+        <div class="banner__block-arrow">
+            <span class="banner__arrow-left"></span>
+            <span class="banner__content-arrow">1/5</span>
+            <span class="banner__arrow-right"></span>
+        </div>
+
+        <div class="banner__block-decoration"></div>
+    </section>
 </body>
 </html>
